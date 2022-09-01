@@ -14,6 +14,16 @@ Even here, a warning is still generated unless I `#define SUPPRESS_HPP_WARNING` 
 
 There's nothing much to use here, but if you want to compile it yourself and check that it works: clone this repo into your Arduino libraries folder (on a Mac: `~/Documents/Arduino/libraries/`), restart the Arduino IDE, then open  ServoSubclassTest.ino from the Examples menu under File.
 
+Compile, and (if you really want) flash to a device. Open the serial monitor to receive the stunning output:
+
+```
+Starting...
+0
+128
+```
+
+Woohoo!
+
 ## Is there a better way?
 
-Maybe. I haven't found a combination that works, however. If you do, please log an issue on this repo!
+Maybe. I haven't found a combination that works. If you do, please log an issue on this repo!
